@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove margin from the body to avoid scrollbar */
+body {
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Navbar should take full width */
+nav {
+  width: 100%;
+}
